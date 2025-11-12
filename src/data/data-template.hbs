@@ -1,0 +1,12 @@
+{{#each products}}
+<li>
+    {{#if name}}
+    <h2>Назва: {{name}}</h2>
+    {{else}}
+    <h2>Назва: Невідома</h2>
+    {{/if}}
+    <p>Опис: {{description}}</p>
+    <p>Ціна: {{price}}</p>
+    <p>Номер {{id}}</p>
+</li>
+{{/each}}
